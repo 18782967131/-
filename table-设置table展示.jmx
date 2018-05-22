@@ -43030,7 +43030,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="519782754">&quot;messageid&quot;:&quot;S0082&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="561190606">&quot;status&quot;:&quot;FAIL&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -44617,7 +44617,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="519782754">&quot;messageid&quot;:&quot;S0082&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="561190606">&quot;status&quot;:&quot;FAIL&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
