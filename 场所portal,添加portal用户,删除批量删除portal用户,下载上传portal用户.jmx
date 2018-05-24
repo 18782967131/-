@@ -27079,7 +27079,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1319003333">&quot;data&quot;:[],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-1573102098">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -27467,7 +27467,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1319003333">&quot;data&quot;:[],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-1573102098">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -27506,7 +27506,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-977155059">&quot;data&quot;:[{&quot;messageid&quot;:&quot;E0037&quot;,&quot;row&quot;:1}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-253652459">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[{&quot;messageid&quot;:&quot;E0037&quot;,&quot;row&quot;:2}]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -27894,7 +27894,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1498610666">&quot;data&quot;:[{&quot;messageid&quot;:&quot;E0037&quot;,&quot;row&quot;:4}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-814326312">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[{&quot;messageid&quot;:&quot;E0037&quot;,&quot;row&quot;:5}]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -28366,7 +28366,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1319003333">&quot;data&quot;:[],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-2128955212">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[]},&quot;status&quot;:&quot;SUCCESS</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -28838,7 +28838,7 @@ out.close();</stringProp>
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1319003333">&quot;data&quot;:[],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-2128955212">&quot;data&quot;:{&quot;fileformat&quot;:&quot;xlsx&quot;,&quot;result&quot;:[]},&quot;status&quot;:&quot;SUCCESS</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
