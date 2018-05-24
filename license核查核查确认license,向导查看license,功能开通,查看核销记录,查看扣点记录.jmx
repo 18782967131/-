@@ -107,6 +107,7 @@
             <stringProp name="Argument.name">s100_license</stringProp>
             <stringProp name="Argument.value">7E8D6268A14B47E2A8B8</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">100个安全点数</stringProp>
           </elementProp>
           <elementProp name="used_license" elementType="Argument">
             <stringProp name="Argument.name">used_license</stringProp>
