@@ -133,6 +133,11 @@
             <stringProp name="Argument.value">3.0.3.29</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="modle" elementType="Argument">
+            <stringProp name="Argument.name">modle</stringProp>
+            <stringProp name="Argument.value">AP106</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -15010,7 +15015,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -15021,7 +15026,7 @@
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">60000</stringProp>
+          <stringProp name="ActionProcessor.duration">120000</stringProp>
         </TestAction>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取场所下rf" enabled="true">
@@ -15046,10 +15051,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -16385,7 +16391,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -16443,7 +16449,7 @@
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">60000</stringProp>
+          <stringProp name="ActionProcessor.duration">120000</stringProp>
         </TestAction>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取group下rf" enabled="true">
@@ -16468,10 +16474,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -17267,7 +17274,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -17325,7 +17332,7 @@
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">60000</stringProp>
+          <stringProp name="ActionProcessor.duration">120000</stringProp>
         </TestAction>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取group下rf" enabled="true">
@@ -17350,10 +17357,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -18149,7 +18157,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -18232,10 +18240,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -19031,7 +19040,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -19089,7 +19098,7 @@
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">60000</stringProp>
+          <stringProp name="ActionProcessor.duration">120000</stringProp>
         </TestAction>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取group下rf" enabled="true">
@@ -19114,10 +19123,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -19913,7 +19923,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -19996,10 +20006,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -20795,7 +20806,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="2012300193">&quot;describe&quot;:&quot;update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -20878,10 +20889,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
-              <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
-              <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -21497,7 +21509,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-794798152">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot; enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
+              <stringProp name="-18694081">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;</stringProp>
               <stringProp name="365147903">5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
               <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
               <stringProp name="-180825944">&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[]</stringProp>
@@ -21537,7 +21549,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-152470797">&quot;describe&quot;:&quot;has no permission&quot;,&quot;messageid&quot;:&quot;E0001&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="1513256548">update ap rf success&quot;,&quot;messageid&quot;:&quot;S0012&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -28130,10 +28142,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -28975,10 +28989,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -29820,10 +29836,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -30665,10 +30683,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -31510,10 +31530,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -32355,10 +32377,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -33200,10 +33224,12 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1741223933">&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="-643223021">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},</stringProp>
-              <stringProp name="1498443550">&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
-              <stringProp name="860710808">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS</stringProp>
+              <stringProp name="434260144">&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="1443931132">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
+              <stringProp name="463166965">&quot;count&quot;:1,&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;name&quot;,&quot;property&quot;:&quot;name&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;isalive&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;isalive&quot;,&quot;type&quot;:&quot;enum&quot;}],&quot;table&quot;:[&quot;name&quot;,&quot;isalive&quot;,&quot;Channel2_4G&quot;,&quot;Power2_4G&quot;,&quot;Channel5G_all&quot;,&quot;Power5G_all&quot;,&quot;Channel5G_high&quot;,&quot;Power5G_high&quot;,&quot;Channel5G_low&quot;,&quot;Power5G_low&quot;]},&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
