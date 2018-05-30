@@ -111,9 +111,15 @@
           </elementProp>
           <elementProp name="s100_license" elementType="Argument">
             <stringProp name="Argument.name">s100_license</stringProp>
-            <stringProp name="Argument.value">DABA1AC4AE9D423A9A73</stringProp>
+            <stringProp name="Argument.value">52EEFF6B1F8B4288986E</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">100个安全点数</stringProp>
+          </elementProp>
+          <elementProp name="s100_license1" elementType="Argument">
+            <stringProp name="Argument.name">s100_license1</stringProp>
+            <stringProp name="Argument.value">521111658AF84E30B3C8</stringProp>
+            <stringProp name="Argument.desc">100个安全点数</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="used_license" elementType="Argument">
             <stringProp name="Argument.name">used_license</stringProp>
@@ -1880,7 +1886,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;softversion&quot;:&quot;${csp_version}&quot;,&quot;lic&quot;:&quot;${s100_license}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;softversion&quot;:&quot;${csp_version}&quot;,&quot;lic&quot;:&quot;${s100_license1}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -8295,10 +8301,9 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-972638645">&quot;funcpointarray&quot;:{&quot;BasicFunction&quot;:[</stringProp>
-              <stringProp name="-305399211">&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="51512">404</stringProp>
             </collectionProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>

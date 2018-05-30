@@ -15858,6 +15858,43 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="设置设备检测client展示字段" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;sence&quot;:&quot;site&quot;,&quot;table&quot;:[&quot;mac&quot;,&quot;macaddress&quot;,&quot;encrypt&quot;,&quot;gathertime&quot;,&quot;net_type&quot;,&quot;rssi&quot;,&quot;ssid&quot;,&quot;sta_num&quot;,&quot;black&quot;,&quot;channel&quot;,&quot;ids_item&quot;,&quot;device_type&quot;]}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${host}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/apiv1/table/widsclient</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="519782754">&quot;messageid&quot;:&quot;S0082&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">true</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取场所下检测到的client" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -15880,7 +15917,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1811278050">&quot;clients&quot;:[],&quot;count&quot;:0,&quot;table&quot;:[&quot;mac&quot;,&quot;macaddress&quot;,&quot;assoc_apmac&quot;,&quot;ids_item&quot;,&quot;gathertime&quot;,&quot;net_type&quot;,&quot;rssi&quot;,&quot;sta_ip&quot;,&quot;device_type&quot;],&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;type&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;interference-client&quot;,&quot;rogue-client&quot;],&quot;property&quot;:&quot;device_type&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;ids_item&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;ids_item&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;macaddress&quot;,&quot;property&quot;:&quot;macaddress&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;mac&quot;,&quot;property&quot;:&quot;mac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;assoc_apmac&quot;,&quot;property&quot;:&quot;assoc_apmac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;net_type&quot;,&quot;property&quot;:&quot;net_type&quot;,&quot;type&quot;:&quot;string&quot;}]},&quot;describe&quot;:&quot;get clients success&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="1807397778">&quot;data&quot;:{&quot;clients&quot;:[],&quot;count&quot;:0,&quot;table&quot;:[&quot;mac&quot;,&quot;macaddress&quot;,&quot;encrypt&quot;,&quot;gathertime&quot;,&quot;net_type&quot;,&quot;rssi&quot;,&quot;ssid&quot;,&quot;sta_num&quot;,&quot;black&quot;,&quot;channel&quot;,&quot;ids_item&quot;,&quot;device_type&quot;],&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;type&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;interference-client&quot;,&quot;rogue-client&quot;],&quot;property&quot;:&quot;device_type&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;ids_item&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;ids_item&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;macaddress&quot;,&quot;property&quot;:&quot;macaddress&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;mac&quot;,&quot;property&quot;:&quot;mac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;assoc_apmac&quot;,&quot;property&quot;:&quot;assoc_apmac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;net_type&quot;,&quot;property&quot;:&quot;net_type&quot;,&quot;type&quot;:&quot;string&quot;}]},&quot;describe&quot;:&quot;get clients success&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -23629,7 +23666,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1724885330">{&quot;data&quot;:{&quot;clients&quot;:[],&quot;count&quot;:0,&quot;table&quot;:[&quot;mac&quot;,&quot;macaddress&quot;,&quot;assoc_apmac&quot;,&quot;ids_item&quot;,&quot;gathertime&quot;,&quot;net_type&quot;,&quot;rssi&quot;,&quot;sta_ip&quot;,&quot;device_type&quot;],&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;type&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;interference-client&quot;,&quot;rogue-client&quot;],&quot;property&quot;:&quot;device_type&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;ids_item&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;ids_item&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;macaddress&quot;,&quot;property&quot;:&quot;macaddress&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;mac&quot;,&quot;property&quot;:&quot;mac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;assoc_apmac&quot;,&quot;property&quot;:&quot;assoc_apmac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;net_type&quot;,&quot;property&quot;:&quot;net_type&quot;,&quot;type&quot;:&quot;string&quot;}]},&quot;describe&quot;:&quot;get client success&quot;,&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
+              <stringProp name="1805022149">&quot;data&quot;:{&quot;clients&quot;:[],&quot;count&quot;:0,&quot;table&quot;:[&quot;mac&quot;,&quot;macaddress&quot;,&quot;encrypt&quot;,&quot;gathertime&quot;,&quot;net_type&quot;,&quot;rssi&quot;,&quot;ssid&quot;,&quot;sta_num&quot;,&quot;black&quot;,&quot;channel&quot;,&quot;ids_item&quot;,&quot;device_type&quot;],&quot;filter&quot;:[{&quot;name&quot;:&quot;search&quot;,&quot;type&quot;:&quot;search&quot;},{&quot;name&quot;:&quot;type&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;interference-client&quot;,&quot;rogue-client&quot;],&quot;property&quot;:&quot;device_type&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;ids_item&quot;,&quot;options&quot;:[&quot;all&quot;,&quot;true&quot;,&quot;false&quot;],&quot;property&quot;:&quot;ids_item&quot;,&quot;type&quot;:&quot;enum&quot;},{&quot;name&quot;:&quot;macaddress&quot;,&quot;property&quot;:&quot;macaddress&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;mac&quot;,&quot;property&quot;:&quot;mac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;assoc_apmac&quot;,&quot;property&quot;:&quot;assoc_apmac&quot;,&quot;type&quot;:&quot;string&quot;},{&quot;name&quot;:&quot;net_type&quot;,&quot;property&quot;:&quot;net_type&quot;,&quot;type&quot;:&quot;string&quot;}]},&quot;describe&quot;:&quot;get client success&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
