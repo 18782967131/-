@@ -14986,6 +14986,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -16362,6 +16368,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -17245,6 +17257,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -18128,6 +18146,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -19011,6 +19035,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -19894,6 +19924,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -20777,6 +20813,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改group下rf" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -22163,7 +22205,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="925878246">&quot;data&quot;:[{&quot;aptype&quot;:&quot;AP106&quot;,&quot;describe&quot;:&quot;HAN-CLOUD AP106 Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;34:E7:0B:01:35:20&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:&quot;AUTO&quot;,&quot;channelwidth&quot;:20,&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:&quot;AUTO&quot;,&quot;channelwidth&quot;:80,&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -22697,7 +22743,11 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-839930244">&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:&quot;AUTO&quot;,&quot;channelwidth&quot;:20,&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:&quot;AUTO&quot;,&quot;channelwidth&quot;:80,&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;:&quot;AUTO&quot;,&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="-1955614892">&quot;data&quot;:[{&quot;aptype&quot;:&quot;${modle}&quot;,&quot;describe&quot;:&quot;HAN-CLOUD ${modle} Version ${version}&quot;,&quot;isalive&quot;:true,&quot;macAddress&quot;:&quot;${mac}&quot;,&quot;name&quot;:&quot;new name&quot;,&quot;rfservice&quot;:[{&quot;backgroundscanning&quot;:&quot;enable&quot;,&quot;bandsteering&quot;:&quot;disable&quot;,&quot;countrycode&quot;:&quot;CN&quot;,&quot;loadbalance&quot;:&quot;disable&quot;,&quot;perbandinfo&quot;:{&quot;2_4G&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;:</stringProp>
+              <stringProp name="1769868664">ischanauto&quot;:true,&quot;ispowerauto&quot;:true,&quot;powersetting&quot;</stringProp>
+              <stringProp name="-41056729">&quot;ischanauto&quot;:true,&quot;ispowerauto&quot;:true</stringProp>
+              <stringProp name="-1815295739">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0}},&quot;scanningduration&quot;:50,&quot;scanninginterval&quot;:20,&quot;voicevedioawareness&quot;:&quot;enable&quot;}]}],&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
+              <stringProp name="226174156">&quot;powervalmax&quot;:&quot;&quot;,&quot;powervalmin&quot;:&quot;&quot;,&quot;shortguardinterval&quot;:&quot;enable&quot;,&quot;signalstrengththreshold&quot;:0},&quot;5G_all&quot;:{&quot;band&quot;:&quot;enable&quot;,&quot;channellists&quot;:[],&quot;channelsetting&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
