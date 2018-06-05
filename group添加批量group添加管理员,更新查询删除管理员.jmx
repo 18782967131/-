@@ -7365,7 +7365,7 @@
         </DebugSampler>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="批量为groups添加管理员,userid传入空   F传入空提示添加成功" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="批量为groups添加管理员,userid传入空" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -7679,7 +7679,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;groups&quot;:[&quot;${group_id1}&quot;,&quot;${group_id2}&quot;],&quot;userid&quot;:&quot;${user2}&quot;,&quot;roleid&quot;:&quot;admin&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;groups&quot;:[&quot;${group_id1}&quot;,&quot;${group_id2}&quot;],&quot;userid&quot;:&quot;&quot;,&quot;roleid&quot;:&quot;admin&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
