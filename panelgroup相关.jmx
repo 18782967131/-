@@ -6333,7 +6333,8 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="1522676923">5g&quot;:{&quot;eighty&quot;:{&quot;channelsetting&quot;:[42,58,106,122,138,155],&quot;number&quot;:[</stringProp>
               <stringProp name="77287406">&quot;data&quot;:{&quot;2.4g&quot;:{&quot;forty&quot;:{&quot;channelsetting&quot;:[3,4,5,6,7,8,9,10,11],&quot;number&quot;:[0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[1,2,3,4,5,6,7,8,9,10,11,12,13],&quot;number&quot;:[</stringProp>
-              <stringProp name="-74321741">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}},&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
+              <stringProp name="-355298183">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[</stringProp>
+              <stringProp name="-877440824">&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -6999,7 +7000,8 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="1522676923">5g&quot;:{&quot;eighty&quot;:{&quot;channelsetting&quot;:[42,58,106,122,138,155],&quot;number&quot;:[</stringProp>
               <stringProp name="77287406">&quot;data&quot;:{&quot;2.4g&quot;:{&quot;forty&quot;:{&quot;channelsetting&quot;:[3,4,5,6,7,8,9,10,11],&quot;number&quot;:[0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[1,2,3,4,5,6,7,8,9,10,11,12,13],&quot;number&quot;:[</stringProp>
-              <stringProp name="-74321741">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}},&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
+              <stringProp name="-355298183">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[</stringProp>
+              <stringProp name="-877440824">&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -7665,7 +7667,8 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="1522676923">5g&quot;:{&quot;eighty&quot;:{&quot;channelsetting&quot;:[42,58,106,122,138,155],&quot;number&quot;:[</stringProp>
               <stringProp name="77287406">&quot;data&quot;:{&quot;2.4g&quot;:{&quot;forty&quot;:{&quot;channelsetting&quot;:[3,4,5,6,7,8,9,10,11],&quot;number&quot;:[0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[1,2,3,4,5,6,7,8,9,10,11,12,13],&quot;number&quot;:[</stringProp>
-              <stringProp name="-74321741">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}},&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
+              <stringProp name="-355298183">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[</stringProp>
+              <stringProp name="-877440824">&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -8331,7 +8334,8 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="1522676923">5g&quot;:{&quot;eighty&quot;:{&quot;channelsetting&quot;:[42,58,106,122,138,155],&quot;number&quot;:[</stringProp>
               <stringProp name="77287406">&quot;data&quot;:{&quot;2.4g&quot;:{&quot;forty&quot;:{&quot;channelsetting&quot;:[3,4,5,6,7,8,9,10,11],&quot;number&quot;:[0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[1,2,3,4,5,6,7,8,9,10,11,12,13],&quot;number&quot;:[</stringProp>
-              <stringProp name="-74321741">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}},&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
+              <stringProp name="-355298183">&quot;forty&quot;:{&quot;channelsetting&quot;:[38,46,54,62,102,110,118,126,134,142,151,159],&quot;number&quot;:[0,0,0,0,0,0,0,0,0,0,0,0]},&quot;twenty&quot;:{&quot;channelsetting&quot;:[36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165],&quot;number&quot;:[</stringProp>
+              <stringProp name="-877440824">&quot;status&quot;:&quot;SUCCESS&quot;}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
