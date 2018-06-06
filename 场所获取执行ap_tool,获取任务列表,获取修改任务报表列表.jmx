@@ -6839,7 +6839,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${task_id}&quot;,&#xd;
+&quot;tasktype&quot;:1,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -6863,7 +6869,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -6871,6 +6877,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取任务报表列表" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -7307,7 +7319,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${__intSum(${task_id},1,)}&quot;,&#xd;
+&quot;tasktype&quot;:2,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -7331,7 +7349,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -7339,6 +7357,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取任务报表列表" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -7775,7 +7799,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${__intSum(${task_id},2,)}&quot;,&#xd;
+&quot;tasktype&quot;:3,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -7799,7 +7829,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -7807,6 +7837,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取任务报表列表" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -8243,7 +8279,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${task_id}&quot;,&#xd;
+&quot;tasktype&quot;:1,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -8267,7 +8309,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -8275,6 +8317,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取任务报表列表" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -8711,7 +8759,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${task_id}&quot;,&#xd;
+&quot;tasktype&quot;:1,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -8735,7 +8789,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -8780,6 +8834,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登出" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -9263,7 +9323,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${task_id}&quot;,&#xd;
+&quot;tasktype&quot;:1,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -9287,7 +9353,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -9332,6 +9398,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登出" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -9815,7 +9887,13 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
 &quot;taskenable&quot;:true,&#xd;
-&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;,&#xd;
+&quot;taskid&quot;:&quot;${task_id}&quot;,&#xd;
+&quot;tasktype&quot;:1,&#xd;
+&quot;userid&quot;:&quot;${user1}&quot;,&#xd;
+&quot;emailenable&quot;:true,&#xd;
+&quot;emaillist&quot;:[],&#xd;
+&quot;senceid&quot;:&quot;${site_id1}&quot;,&#xd;
+&quot;sencetype&quot;:&quot;site&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -9839,7 +9917,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1616106338">&quot;describe&quot;:&quot;request parameter error&quot;,&quot;messageid&quot;:&quot;E0042&quot;,&quot;status&quot;:&quot;FAIL&quot;</stringProp>
+              <stringProp name="-1921966037">&quot;data&quot;:null,&quot;describe&quot;:&quot;update report success&quot;,&quot;messageid&quot;:&quot;S0207&quot;,&quot;status&quot;:&quot;SUCCESS&quot;</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
@@ -9884,6 +9962,12 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+          <intProp name="ActionProcessor.action">1</intProp>
+          <intProp name="ActionProcessor.target">0</intProp>
+          <stringProp name="ActionProcessor.duration">30000</stringProp>
+        </TestAction>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登出" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
