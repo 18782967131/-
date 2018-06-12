@@ -6877,7 +6877,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -6889,7 +6889,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -7357,7 +7357,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -7369,7 +7369,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},1,)}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},1,)}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -7840,7 +7840,7 @@
         <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">30000</stringProp>
+          <stringProp name="ActionProcessor.duration">60000</stringProp>
         </TestAction>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取任务报表列表" enabled="true">
@@ -7849,7 +7849,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-01&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},2,)}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-01&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},2,)}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -8317,7 +8317,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -8329,7 +8329,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${__intSum(${task_id},3,)}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -8834,7 +8834,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -8893,7 +8893,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -9398,7 +9398,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -9457,7 +9457,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -9962,7 +9962,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">30000</stringProp>
@@ -10021,7 +10021,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-04-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-04-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
+                <stringProp name="Argument.value">{&quot;etime&quot;:&quot;2018-05-25&quot;,&quot;limit&quot;:30,&quot;offset&quot;:0,&quot;stime&quot;:&quot;2018-05-18&quot;,&quot;taskid&quot;:&quot;${task_id}&quot;}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
